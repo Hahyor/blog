@@ -1,9 +1,12 @@
 import React from 'react'
 import './Contact.css'
+import Nav from './navbar/Nav'
+import Footer from './footer/Footer'
 
 const Contact = () => {
   return (
     <div>
+      <Nav />
         <div className='sweet'>
             <h4>Feel Free To Contact us.</h4>
             <img src='https://images.pexels.com/photos/38271/ipad-map-tablet-internet-38271.jpeg?auto=compress&cs=tinysrgb&w=600' alt='#'></img>
@@ -48,12 +51,7 @@ const Contact = () => {
 
 <button class="btn btn-primary" type="button">Submit</button>
 
-
-
-
-
-
-
+<Footer />
 
 
     </div>

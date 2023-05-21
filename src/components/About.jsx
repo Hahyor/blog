@@ -1,9 +1,12 @@
 import React from 'react'
 import './About.css'
+import Nav from './navbar/Nav'
+import Footer from './footer/Footer'
 
 const About = () => {
   return (
     <div className='abt'>
+        <Nav />
         <div>
             <h1>Learn More About Us</h1>
         </div>
@@ -26,6 +29,9 @@ const About = () => {
                 <p>To  focus on empowering readers to prioritize their well-being and lead balanced lives. </p>
             </div>
             </div>
+
+        
+            <Footer />
         </div>
   )
 }
