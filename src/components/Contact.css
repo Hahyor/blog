@@ -1,0 +1,17 @@
+.sweet h4{
+    padding-top: 10px;
+    font-weight: bolder;
+    align-items: center;
+    color: blueviolet;
+}
+
+.sweet img{
+    padding-top: 10px;
+    height: auto;
+}
+
+.goal{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
